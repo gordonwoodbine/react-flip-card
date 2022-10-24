@@ -31,6 +31,11 @@ const useStyles = makeStyles({
   media: {
     height: 0,
     paddingTop: '56%',
+    filter: 'grayscale(75%)',
+    '&:hover': {
+      filter: 'grayscale(50%)',
+    },
+    transition: 'filter 1s',
     // marginTop: 30,
   },
   front: {
